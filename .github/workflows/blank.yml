@@ -31,7 +31,7 @@ jobs:
         
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line ${{env.NAME}}
+      - name: Run a multi-line ${{secrets.NAME}}
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
